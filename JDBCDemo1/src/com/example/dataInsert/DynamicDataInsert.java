@@ -24,7 +24,7 @@ public class DynamicDataInsert {
             ps.setString(3, "Mantri"); // Last name
             int rowsInserted = ps.executeUpdate();
             System.out.println(rowsInserted + " rows inserted");
-            System.out.println("Done !");
+           // System.out.println("Done !");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
