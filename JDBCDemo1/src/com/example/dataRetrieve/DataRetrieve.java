@@ -25,6 +25,7 @@ public class DataRetrieve {
             // Insert data into the table
             int rowsAffected = statement.executeUpdate(insertQuery);
             System.out.println(rowsAffected + " rows inserted successfully.");
+            System.out.println("Hello world !!");
 
             // Retrieve data from the table
             ResultSet rs = statement.executeQuery(query);
